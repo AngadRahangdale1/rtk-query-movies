@@ -4,7 +4,7 @@ const OMDbApi = 'ecbcca4d';
 
 export const ombdApi = createApi({
     reducerPath: 'ombdApi',
-    baseQuery: fetchBaseQuery({baseUrl:'http://www.omdbapi.com/'}),
+    baseQuery: fetchBaseQuery({baseUrl:'https://www.omdbapi.com/'}),
     endpoints: (builder) => ({
 
         getPopularMovies : builder.query({
